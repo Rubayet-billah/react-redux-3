@@ -7,7 +7,6 @@ const CounterView = () => {
 
 
     const dispatch = useDispatch()
-
     return (
         <div>
             <h2>Count: {count}</h2>
