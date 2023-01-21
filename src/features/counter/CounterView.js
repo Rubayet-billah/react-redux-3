@@ -8,8 +8,7 @@ const CounterView = () => {
 
     const dispatch = useDispatch()
     return (
-        <div>
-            <h2>Count: {count}</h2>
+        <div>            <h2>Count: {count}</h2>
             <button onClick={() => dispatch(increment())}>Increment</button>
             <button onClick={() => dispatch(decrement())}>Decrement</button>
             <button onClick={() => dispatch(reset())}>Reset</button>
