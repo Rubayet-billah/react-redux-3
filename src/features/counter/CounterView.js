@@ -9,6 +9,7 @@ const CounterView = () => {
     const dispatch = useDispatch()
     return (
         <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia vero maxime harum, quod minus omnis suscipit recusandae quisquam enim quis vel, eaque quo fugit nam eius ex totam iste. Sequi!</p>
             <h2>Count: {count}</h2>
             <button onClick={() => dispatch(increment())}>Increment</button>
             <button onClick={() => dispatch(decrement())}>Decrement</button>
